@@ -1,0 +1,29 @@
+Credit Card Fraud Detection - Model Evaluation Results
+
+1. Random Forest:
+   - Accuracy:  0.9998995084287305
+   - Precision:  0.9997993042547498
+   - Recall:  1.0
+   - F1 Score:  0.9998996420566688
+
+2. XGBoost:
+   - Accuracy:  0.9997487710718264
+   - Precision:  0.99949841163685
+   - Recall:  1.0
+   - F1 Score:  0.9997491429049251
+
+3. Logistic Regression:
+   - Accuracy:  0.9487744215453929
+   - Precision:  0.9741469190125289
+   - Recall:  0.9221478755436601
+   - F1 Score:  0.947434454193127
+
+Comparison Table:
+------------------------------------------------
+        Model              Accuracy  Precision  Recall  F1 Score
+1. Random Forest         0.999899   0.999799   1.0000  0.999900
+2. XGBoost               0.999749   0.999498   1.0000  0.999749
+3. Logistic Regression   0.948774   0.974147   0.9221  0.947434
+------------------------------------------------
+
+The best model based on F1 Score is: **Random Forest**
